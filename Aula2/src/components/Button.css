@@ -12,7 +12,13 @@
     font-weight: bold;
     cursor: pointer;
   }
-  
+  .botao:active{
+    background-color: #1479EA;
+    color: white;
+    border: 3px solid #1479EA;
+    transition: 0.1s;
+    scale: 2;
+  }
   .botao::after {
     content: "";
     position: absolute;
